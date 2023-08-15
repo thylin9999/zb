@@ -1,0 +1,185 @@
+.van-nav-bar{
+  .van-nav-bar__title {
+    font-family: PingFang-SC-Medium;
+    font-size: 16px;
+    font-weight: 500;
+    color: #fff;
+  }
+  .van-icon {
+    color: #fff!important;
+  }
+  background-image: url('../assets/images/header/small.png');
+  background-color: transparent;
+}
+.van-tabs {
+  .van-tabs__line {
+    width: 25%;
+    z-index: 3;
+    background-color: #FBA187;
+  }
+  .van-tab{
+    font-size: 16px;
+    font-family: PingFang-SC-Medium;
+    font-weight: 400;
+    color: #FFFFFF;
+    line-height: 22px;
+  }
+  .van-tabs__nav, .van-tabs__wrap {
+    background-color: transparent!important;
+  }
+  .van-tab--active {
+    color: #FBA187;
+  }
+  .van-tabs__nav--line {
+    padding-bottom: 0;
+  }
+}
+
+
+
+.custom-image .van-empty__image {
+  width: 240px;
+  height: 230px;
+}
+
+.download-dialog {
+  background-color: transparent!important;
+}
+
+
+.van-dialog {
+  border-radius: 3px;
+}
+.login-dialog {
+  background-color: transparent;
+}
+
+.img-icon {
+  width: 13px;
+  height: 13px;
+}
+
+.van-cell {
+  .van-cell__title {
+    color: #fff;
+  }
+  &::after {
+    border-color: #2F3568!important;
+  }
+}
+.van-field__control {
+  color: #6C73AF!important;
+}
+
+[class*=van-hairline]::after, .van-cell::after {
+  border-color: #2F3568!important;
+}
+.van-cell{
+  background-color: transparent!important;
+}
+.van-button--info {
+  border: none;
+}
+
+.ws-msg-notification, .custom-tips{
+  top: 85%;
+  width: 347px;
+  height: 65px;
+  background: linear-gradient(90deg, #FFF5E8 0%, #E1A579 100%);
+  box-shadow: 0px 2px 4px 0px rgba(0,0,0,0.37);
+  border-radius: 39px;
+  .van-dialog__content--isolated {
+    min-height: 65px;
+  }
+  .van-dialog__message{
+    height: 65px;
+    padding: 0;
+    white-space: nowrap;
+  }
+  .box {
+    height: 100%;
+    .icon {
+      width: 48px;
+      height: 48px;
+      background-size: 100% 100%;
+      background-position: center;
+      background-repeat: no-repeat;
+    }
+    .icon.goal {
+      background-image: url('../assets/images/common/ball.gif');
+    }
+    .icon.card {
+      width: 35px;
+      height: 40px;
+    }
+    .icon.yellow {
+      background-image: url('../assets/images/common/yellow.gif');
+    }
+    .icon.red {
+      background-image: url('../assets/images/common/red.gif');
+    }
+    .time {
+      color: #FF5B5D;
+    }
+    .home-goal {
+      .home {
+        color: #A05A77;
+      }
+      .home-goal-icon{
+        background: url('../assets/images/common/is-goal.gif');
+        background-size: 100% 100%;
+        display: inline-block;
+        width: 24px;
+        height: 24px;
+      }
+    }
+    .away-goal {
+      .away {
+        color: #A05A77;
+      }
+      .away-goal-icon{
+        background: url('../assets/images/common/is-goal.gif');
+        background-size: 100% 100%;
+        display: inline-block;
+        width: 24px;
+        height: 24px;
+      }
+    }
+    .card-num {
+      width: 10px;
+      height: 15px;
+      border-radius: 1px;
+      &.red-card-num {
+        background: #FF5B5D;
+      }
+      &.yellow-card-num {
+        background: #FFC460;
+      }
+    }
+    .cards {
+      .yellow, .red {
+        padding: 3px 2px;
+        border-radius: 1px;
+      }
+      .yellow {
+        background: #FFC460;
+      }
+      .red {
+        background-color: #FF5B5D;
+      }
+    }
+  }
+}
+.van-toast{
+    // width: 80px;
+    // height: 80px;
+    background: #161C4F;
+    box-shadow: 0px 1px 15px 0px rgba(187,187,187,0.2);
+    border-radius: 12px;
+    .van-toast__text{
+        color: #6C73AF;
+    }
+}
+.van-nav-bar__content{
+    height: 46px !important;
+}

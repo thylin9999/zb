@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="21px" height="21px" viewBox="0 0 21 21" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>编组</title>
+    <g id="页面-3" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="square">
+        <g id="登录注册页" transform="translate(-25.000000, -23.000000)" stroke="#FFFFFF">
+            <g id="编组" transform="translate(21.857864, 19.857864)">
+                <g transform="translate(14.142136, 14.142136) rotate(45.000000) translate(-14.142136, -14.142136) translate(4.142136, 4.142136)" id="直线-2">
+                    <line x1="0.555555556" y1="10.4545455" x2="19.4444444" y2="10.4545455"></line>
+                    <line x1="10.5555556" y1="0.454545455" x2="10.5555556" y2="19.5454545"></line>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
